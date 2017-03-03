@@ -22,7 +22,6 @@ int main(array<System::String^>^ args)
 
     do
     {
-        std::cout << "Choose a number between 1 - 100 :";
         std::cin >> guess;
     }
     while (!Guess(guess));
